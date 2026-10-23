@@ -6,7 +6,7 @@ function App() {
   return (
     <div
       className={`flex min-h-screen flex-col items-start transition-colors duration-300 ${
-        isDark ? "bg-[#1e2327] text-gray-100" : "bg-white text-slate-800"
+        isDark ? "bg-[#1e2327] text-gray-100" : "bg-white text-black-800"
       }`}
     >
       <button
